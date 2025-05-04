@@ -21,7 +21,7 @@ app.use(express.json());
 
 //Enabeling cors
 app.use(cors({
-  origin: "https://e-comm-frontend-plum.vercel.app/loginForm",
+  origin: "https://e-comm-frontend-plum.vercel.app",
   credentials:true
 }));
 
