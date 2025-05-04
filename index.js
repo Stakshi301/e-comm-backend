@@ -21,7 +21,7 @@ app.use(express.json());
 
 //Enabeling cors
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin: "https://e-comm-frontend-plum.vercel.app/loginForm",
   credentials:true
 }));
 
